@@ -1,0 +1,112 @@
+.h1-tasks{
+font-family: "FiraGO";
+font-weight: 600;
+font-size: 34px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+.tasks-page {
+    padding: 24px;
+    font-family: 'FiraGO', sans-serif;
+  }
+  
+  .h1-tasks {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 32px;
+    color: #1A1A1F;
+  }
+  
+  .filters {
+    margin-bottom: 32px;
+  }
+  
+  .task-board {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-top: 24px;
+  }
+  
+  .board-column {
+    display: flex;
+    flex-direction: column;
+    min-height: 600px;
+    border-radius: 8px;
+    background-color: #F7F7F9;
+    padding: 16px;
+  }
+  
+  .column-header {
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #E5E5E9;
+    color: #1A1A1F;
+  }
+  
+  .column-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    overflow-y: auto;
+  }
+  
+  .task-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .task-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-title {
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #1A1A1F;
+  }
+  
+  .task-assignee {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .avatar {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+  
+  .task-priority {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  
+  .priority-high {
+    background-color: #FFE5E5;
+    color: #FF3B30;
+  }
+  
+  .priority-medium {
+    background-color: #FFF8E5;
+    color: #FF9500;
+  }
+  
+  .priority-low {
+    background-color: #E5F5E8;
+    color: #34C759;
+  }
